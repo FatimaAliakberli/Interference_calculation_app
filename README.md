@@ -5,15 +5,7 @@ Desktop application (Python + NiceGUI) for microwave link budget / propagation c
 
 There are two ways to use it:
 
-| | When to use | Needs Python? |
-|---|---|---|
-| **A. Ready-made `.exe`** | You received `LinkBudgetCalculator_share.zip` | No |
-| **B. Run from source** (this guide) | You have this GitHub repository | Yes |
 
-Developed and tested on **Windows 10/11 (64-bit)**. macOS/Linux are untested (Linux additionally
-needs GTK or Qt for the pywebview window).
-
----
 
 ## A. Using the ready-made .exe
 
@@ -55,10 +47,9 @@ The program needs these files inside the `data_sources` folder (next to `desktop
 | `ne_10m_coastline/ne_10m_coastline.shp` (+ `.shx .dbf .prj .cpg`) | coastline distance |
 | `dem_hillshade.png`, `dem_bounds.json` | map relief overlay (generated in step 6) |
 
-> **<<< FILL IN: where to download the data, e.g. OneDrive / Google Drive link >>>**
-> Unzip it so that the path is `<project>\data_sources\azerbaijan_dem.tif`.
+Access data_sources from here:
+<br> https://adauniversity-my.sharepoint.com/:f:/g/personal/falakbarli20508_ada_edu_az/IgD888f7ZCTqRqmHi3Rv_QpPAY934Oev9YHPFeEVl_VUFaQ?e=gFUvR5
 
-(If these files are already in the repository, nothing to do.)
 
 ### 4. Create a virtual environment and install the libraries
 Run these in **PowerShell** inside the project folder:
