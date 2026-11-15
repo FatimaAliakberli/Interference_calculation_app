@@ -1,0 +1,17 @@
+# Link Budget Calculator - runtime dependencies (Python 3.12, 64-bit)
+# TIP: after your own venv works, replace these with exact versions (see README, "Pin versions").
+nicegui
+pywebview            # native desktop window (on Windows it pulls in pythonnet automatically)
+folium
+geopandas
+shapely
+pyproj
+rasterio
+numpy
+pandas
+scipy
+matplotlib
+requests
+pyshp                # imported as "shapefile"
+access-parser        # ITU .mdb import (pure Python, works on any laptop)
+pyodbc; sys_platform == "win32"   # optional faster .mdb import if the MS Access ODBC driver exists

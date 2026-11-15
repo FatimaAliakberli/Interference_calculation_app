@@ -1,0 +1,27 @@
+# virtual environments
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+
+# PyInstaller output
+build/
+dist/
+*.spec
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# local app output
+*.log
+autosave.json
+
+# Ignore large data files that exceed GitHub's 100MB limit
+data_sources/azerbaijan_dem.tif
+data_sources/horizon_grid.db
